@@ -1,0 +1,597 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "ETHNIC ORGANIC ORNAMENTED T-SHIRT",
+        "newPrice": "35.98",
+        "discount":false,
+        "numberOfUnits":"1",
+        "type":"NEW",
+        "status": "NEW",
+        "rating": "4.9",
+        "numReviews":"3",
+        "countInStock":"10",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/tee-shirt-motif-japonais-ninomiya-29689599197344_2000x.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "HAPPINESS IS IN A SMALL BAG - LEATHER BAG",
+        "newPrice": "36.99",
+        "discount":false,
+        "type":"NEW",
+        "status": "NEW",
+        "rating": "4.8",
+        "numReviews":"3",
+        "countInStock":"8",
+        "category": "ACCESSORIES",
+        "image": { "fields": { "file": { "url": "./images/4d94bca8bd1f4a4ef91177a64132a3db.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "MELTED \"ICE CREAM\" SWEATER VEST",
+        "newPrice": "35.98",
+        "discount":false,
+        "type":"NEW",
+        "status": "NEW",
+        "rating": "4.7",
+        "numReviews":"4",
+        "countInStock":"9",
+        "category": "WOMEN'S CLOTHES",
+        "image": { "fields": { "file": { "url": "./images/45ddb575577500a79d2a1d4263c559e8.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "JAPANESE AESTHETIC SWEATER 'DOKIMONO' - BLUE",
+        "newPrice": "35.99",
+        "discount":false,
+        "type":"NEW",
+        "status": "NEW",
+        "rating": "4.8",
+        "numReviews":"5",
+        "countInStock":"8",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/8a8cd217c560c5d438753ead14d1d012.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "ORGANIC TOTORO HOODIE 'LANDSCAPE' - WHITE",
+        "newPrice": "35.98",
+        "discount":false,
+        "type":"NEW",
+        "status": "NEW",
+        "rating": "4.6",
+        "numReviews":"3",
+        "countInStock":"10",
+        "category": "WOMEN'S CLOTHES",
+        "image": { "fields": { "file": { "url": "./images/a16f3d640ff1d727b5d9326b8df272db.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "UNISEX ORGANIC LOOSE T - SHIRT BLACK",
+        "newPrice": "38.86",
+        "discount":false,
+        "type":"NEW",
+        "status": "NEW",
+        "rating": "5",
+        "numReviews":"10",
+        "countInStock":"9",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/0bbe8531185c0b12b292071d93ccc1e3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "ETHNIC ORGANIC DENIM STYLISH SKIRT",
+        "newPrice": "35.98",
+        "discount":false,
+        "type":"NEW",
+        "status": "NEW",
+        "rating": "5",
+        "numReviews":"5",
+        "countInStock":"8",
+        "category": "WOMEN'S CLOTHES",
+        "image": { "fields": { "file": { "url": "./images/c9e0c2f71e382500f8e4da304753c78f.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "JAPANESE GRAPHIC HOODIE 'KOMAKI'",
+        "newPrice": "38.86",
+        "discount":false,
+        "type":"NEW",
+        "status": "NEW",
+        "rating": "5",
+        "numReviews":"4",
+        "countInStock":"10",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/6cfdc8da7f26907b320f6cfd5be774ec.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "ETHNIC ORGANIC ORNAMENTED T-SHIRT",
+        "newPrice": "35.98",
+        "discount":false,
+        "type":"BESTSELLER",
+        "status": "BESTSELLER",
+        "rating": "4.9",
+        "numReviews":"25",
+        "countInStock":"8",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/e3bd06fef4a20da3b117a899d324159b.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "CLASSIC ORGANIC HOOD - SOFT BEIGE",
+        "newPrice": "38.86",
+        "discount":false,
+        "type":"BESTSELLER",
+        "status": "BESTSELLER",
+        "rating": "4.8",
+        "numReviews":"35",
+        "countInStock":"8",
+        "category": "WOMEN'S CLOTHES",
+        "image": { "fields": { "file": { "url": "./images/52f502f1da5fc6755c2d300b6d45e6ce.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "CASUAL TRACKSUIT TROUSERS WITH GEOMETRIC PRINT",
+        "newPrice": "48.99",
+        "discount":false,
+        "type":"BESTSELLER",
+        "status": "BESTSELLER",
+        "rating": "4.7",
+        "numReviews":"15",
+        "countInStock":"10",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/f2100bd4aa3b03c783d26fce17802332.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "HAPPINESS IS IN A SMALL BAG - LEATHER BAG",
+        "newPrice": "36.99",
+        "discount":false,
+        "type":"BESTSELLER",
+        "status": "BESTSELLER",
+        "rating": "5",
+        "numReviews":"18",
+        "countInStock":"10",
+        "category": "ACCESSORIES",
+        "image": { "fields": { "file": { "url": "./images/b2cc6c46220056a8d83ce813c8230946.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "LOOSE AND ORGANIC COTTON T-SHIRT",
+        "oldPrice":"19.95",
+        "newPrice": "9.97",
+        "discount":"9.97",
+        "type":"50%",
+        "status": "SALE",
+        "rating": "4.5",
+        "numReviews":"35",
+        "countInStock":"2",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/t-shirt-japonais-moderne-dark-moniale-29625530187936_2000x.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "UNISEX ARC JACKET DENIM IN LIGHT STONE",
+        "oldPrice":"59.95",
+        "newPrice": "47.96",
+        "discount":"11.99",
+        "type":"50%",
+        "status": "SALE",
+        "rating": "4.7",
+        "numReviews": "17",
+        "countInStock": "1",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/3e97062a5f651dbbc478008278d82b04.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "CONTRAST DENIM STYLISH HAT RECYCLED MATERIAL",
+        "newPrice": "49.78",
+        "discount":false,
+        "type":"BESTSELLER",
+        "status": "BESTSELLER",
+        "rating": "4.9",
+        "numReviews":"17",
+        "countInStock":"8",
+        "category": "ACCESSORIES",
+        "image": { "fields": { "file": { "url": "./images/9a395091629bf562730d507b63e984b2.jpg" } } }
+      }
+    },
+    {
+    "sys": { "id": "16" },
+    "fields": {
+      "title": "DENIM CONTRAST STITCHING WINTER COAT",
+      "oldPrice":"49.78",
+      "newPrice": "37.33",
+      "discount":"12.45",
+      "type":"25%",
+      "status": "SALE",
+      "rating": "5",
+      "numReviews":"7",
+      "countInStock":"2",
+      "category": "WOMEN'S CLOTHES",
+      "image": { "fields": { "file": { "url": "./images/2482e4e1b064e0165e8e45770e3a22fc.jpg" } } }
+    }
+    },
+    {
+      "sys": { "id": "17" },
+      "fields": {
+        "title": "DENIM CUTE PINK JEAN JACKET - PINK",
+        "oldPrice":"49.78",
+        "newPrice": "37.33",
+        "discount":"12.45",
+        "type":"25%",
+        "status": "SALE",
+        "rating": "5",
+        "numReviews":"10",
+        "countInStock":"1",
+        "category": "WOMEN'S CLOTHES",
+        "image": { "fields": { "file": { "url": "./images/0c66b830cd3551742484bf251570e1db.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "18" },
+      "fields": {
+        "title": "ESSENTIAL T-SHIRT RED KOI T SHIRT - WHITE",
+        "oldPrice":"21.95",
+        "newPrice": "16.46",
+        "discount":"5.49",
+        "type":"25%",
+        "status": "SALE",
+        "rating": "4.8",
+        "numReviews":"8",
+        "countInStock":"2",
+        "category": "WOMEN'S CLOTHES",
+        "image": { "fields": { "file": { "url": "./images/t-shirt-style-japonais-kashima-29624955437216_2000x.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "19" },
+      "fields": {
+        "title": "WOMEN'S CARRY SHOULDER BAG - SOFT BEIGE",
+        "oldPrice":"59.95",
+        "newPrice": "47.96",
+        "discount":"11.99",
+        "type":"20%",
+        "status": "SALE",
+        "rating": "4.5",
+        "numReviews":"5",
+        "countInStock":"3",
+        "category": "ACCESSORIES",
+        "image": { "fields": { "file": { "url": "./images/b97571785564c0826f049960f7014d39.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "20" },
+      "fields": {
+        "title": "STYLISH JACKET DENIM IN LIGHT BEIGE",
+        "oldPrice":"21.95",
+        "newPrice": "10.97",
+        "discount":"10.98",
+        "type":"50%",
+        "status": "SALE",
+        "rating": "5",
+        "numReviews":"8",
+        "countInStock":"2",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/46f3c4e9c481ee0485f115e044e2a32d.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "21" },
+      "fields": {
+        "title": "CLASSIC ORGANIC LOOSE T - SHIRT - BLACK",
+        "newPrice": "38.86",
+        "type":"NEW",
+        "status": "NEW",
+        "numReviews":"2",
+        "rating": "5",
+        "discount":false,
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/cb1bc7bc945c0607196ea7959bfe07f4.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "22" },
+      "fields": {
+        "title": "CLASSIC ORGANIC LOOSE T - shirt - black",
+        "oldPrice":"19.95",
+        "newPrice": "9.97",
+        "discount":"9.98",
+        "type":"50%",
+        "status": "SALE",
+        "rating": "4.6",
+        "numReviews":"8",
+        "countInStock":"2",
+        "category": "WOMEN'S CLOTHES",
+        "image": { "fields": { "file": { "url": "./images/4cdc5fcf2b94d9cb820a2e9372b9b463.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "23" },
+      "fields": {
+        "title": "JAPANESE FAN 'WAVE OF KANAGAWA",
+        "oldPrice":"41.95",
+        "newPrice": "33.56",
+        "discount":"8.39",
+        "type":"20%",
+        "status": "SALE",
+        "rating": "5",
+        "numReviews":"12",
+        "countInStock":"1",
+        "category": "ACCESSORIES",
+        "image": { "fields": { "file": { "url": "./images/4c538601c053290eb77b25e1e5cacc6d.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "24" },
+      "fields": {
+        "title": "CASUAL CUTE DENIM PATCHWORK JACKET",
+        "newPrice": "35.78",
+        "type":"BESTSELLER",
+        "status": "BESTSELLER",
+        "rating": "4.8",
+        "numReviews":"15",
+        "countInStock":"7",
+        "category": "WOMEN'S CLOTHES",
+        "image": { "fields": { "file": { "url": "./images/54da60c07aaa3c4cde8b671b3659b88b.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "25" },
+      "fields": {
+        "title": "TRENDY MULTICOLOR STREETWEAR JACKET - MULTICOLOR",
+        "newPrice": "35.99",
+        "type":"BESTSELLER",
+        "status": "BESTSELLER",
+        "rating": "5",
+        "numReviews":"23",
+        "countInStock":"11",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/e999877a3dab9bc8694f05376ea0c0db.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "26" },
+      "fields": {
+        "title": "ORANGE FUREUR JEAN JACKET RECYCLED MATERIAL",
+        "oldPrice":"51.95",
+        "newPrice": "38.96",
+        "discount":"12.99",
+        "type":"25%",
+        "status": "SALE",
+        "rating": "4.5",
+        "numReviews":"9",
+        "countInStock":"2",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/1fb5334909596e6faf2bd3d2e4aa4aae.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "27" },
+      "fields": {
+        "title": "UNISEX SHOULDER BAG - CROSSBODY BACKPACK",
+        "oldPrice":"59.95",
+        "newPrice": "47.96",
+        "discount":"11.99",
+        "type":"20%",
+        "status": "SALE",
+        "rating": "4.5",
+        "numReviews":"5",
+        "countInStock":"1",
+        "category": "ACCESSORIES",
+        "image": { "fields": { "file": { "url": "./images/266dc433f8649e5d16326b59f456ddb8.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "28" },
+      "fields": {
+        "title": "MEN'S T-SHIRT SUNFLOWER PRINT COLOUR BLOCK SHIRT",
+        "oldPrice":"21.95",
+        "newPrice": "10.97",
+        "discount":"11.00",
+        "type":"50%",
+        "status": "SALE",
+        "rating": "4.8",
+        "numReviews":"12",
+        "countInStock":"1",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/9fe248834dd1d58920a5fce83c2f1b61.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "29" },
+      "fields": {
+        "title": "CONTRAST FLARED JEANS IN LIGHT BLUE",
+        "newPrice": "38.86",
+        "type":"BESTSELLER",
+        "status": "BESTSELLER",
+        "rating": "5",
+        "numReviews":"29",
+        "countInStock":"9",
+        "category": "WOMEN'S CLOTHES",
+        "image": { "fields": { "file": { "url": "./images/a7eabdfd40fab286cbdd5d389fff03f0.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "30" },
+      "fields": {
+        "title": "PRINTED LOOSE GEOMETRIC STYLISH JACKET",
+        "newPrice": "48.99",
+        "type":"BESTSELLER",
+        "status": "BESTSELLER",
+        "rating": "5",
+        "numReviews":"19",
+        "countInStock":"6",
+        "category": "WOMEN'S CLOTHES",
+        "image": { "fields": { "file": { "url": "./images/7d4b6ea8896967606019173458e90d3f.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "31" },
+      "fields": {
+        "title": "VINTAGE JAPANESE MOUNTAIN JACKET",
+        "newPrice": "38.86",
+        "type":"NEW",
+        "status": "NEW",
+        "rating": "5",
+        "numReviews":"12",
+        "countInStock":"12",
+        "category": "WOMEN'S CLOTHES",
+        "image": { "fields": { "file": { "url": "./images/b2e074c0ed9b38060d5cbeef585a517f.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "32" },
+      "fields": {
+        "title": "ELEVATE BACKPACK/KNAPSACK BY MARCELO ROMERO",
+        "newPrice": "41.95",
+        "type":"NEW",
+        "status": "NEW",
+        "rating": "4.8",
+        "numReviews":"7",
+        "countInStock":"12",
+        "category": "ACCESSORIES",
+        "image": { "fields": { "file": { "url": "./images/482c74366ad78b38afd21fe102f67bac.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "33" },
+      "fields": {
+        "title": "ÉVENTAIL JAPONAIS PAPIER 'FUKUOKA'",
+        "oldPrice":"41.95",
+        "newPrice": "33.56",
+        "discount":"8.39",
+        "type":"20%",
+        "status": "SALE",
+        "rating": "4.8",
+        "numReviews":"11",
+        "countInStock":"2",
+        "description":"Introducing our Ethnic Organic Ornamented T-Shirt, a stunning addition to any wardrobe! Made from 100% organic cotton, this t-shirt is not only comfortable to wear but also eco-friendly. The intricate ornamented design on the front of the shirt is inspired by traditional ethnic patterns, making it a unique and eye-catching piece.Crafted with care, this t-shirt is not only stylish but also durable. The high-quality cotton material ensures that it will last for many wears to come. It is available in a range of sizes, making it the perfect fit for anyone looking to add a touch of ethnic flair to their wardrobe.Not only is this t-shirt a beautiful addition to any outfit, but it also supports sustainable and ethical fashion. By choosing organic cotton, we are reducing the environmental impact of clothing production and supporting fair labor practices. So, add our Ethnic Organic Ornamented T-Shirt to your cart today and make a stylish statement while also making a positive impact on the planet!",
+        "category": "ACCESSORIES",
+        "image": { "fields": { "file": { "url": "./images/06ae43d80607a08efc9715d438122852.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "34" },
+      "fields": {
+        "title": "MEN SWEATER CASUAL LOOSE PRINT KNITTED",
+        "newPrice": "33.56",
+        "type":"BESTSELLER",
+        "status": "BESTSELLER",
+        "rating": "5",
+        "numReviews":"41",
+        "countInStock":"11",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/c79514da63141e873c6c29bd1bf7f657.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "35" },
+      "fields": {
+        "title": "FERRAGAMO PRE-FALL 2022 FASHION SHOW",
+        "oldPrice":"41.95",
+        "newPrice": "33.56",
+        "discount":"8.39",
+        "type":"20%",
+        "status": "SALE",
+        "rating": "4.6",
+        "numReviews":"8",
+        "countInStock":"2",
+        "category": "ACCESSORIES",
+        "image": { "fields": { "file": { "url": "./images/3027c96992276db135d168a961c3689b.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "36" },
+      "fields": {
+        "title": "PRINTED LOOSE GEOMETRIC STYLISH SHIRT",
+        "newPrice": "25.44",
+        "type":"NEW",
+        "status": "NEW",
+        "numReviews":"5",
+        "countInStock":"15",
+        "rating": "4.8",
+        "category": "MEN'S WEAR",
+        "image": { "fields": { "file": { "url": "./images/99db32531b5d8b24958698d7cb669788.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "37" },
+      "fields": {
+        "title": "NEW ACRYLIC FRAME SUNGLASSES SHEIN",
+        "oldPrice":"41.95",
+        "newPrice": "33.56",
+        "discount":"8.39",
+        "type":"20%",
+        "status": "SALE",
+        "numReviews":"5",
+        "countInStock":"15",
+        "rating": "4.8",
+        "category": "ACCESSORIES",
+        "image": { "fields": { "file": { "url": "./images/23f997864cb36fa7989e5634060b5f5d.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "38" },
+      "fields": {
+        "title": "SILVER-TONE GEO CHARM LAYERED NECKLACE",
+        "newPrice": "10.99",
+        "type":"NEW",
+        "status": "NEW",
+        "numReviews":"5",
+        "countInStock":"15",
+        "rating": "4.8",
+        "category": "ACCESSORIES",
+        "image": { "fields": { "file": { "url": "./images/85cf20b5e2d62ae9fc5e72402b71ba4b.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "39" },
+      "fields": {
+        "title": "NEW ACRYLIC FRAME SUNGLASSES SHEIN",
+        "oldPrice":"41.95",
+        "newPrice": "33.56",
+        "discount":"8.39",
+        "type":"20%",
+        "status": "SALE",
+        "numReviews":"5",
+        "countInStock":"15",
+        "rating": "4.8",
+        "category": "ACCESSORIES",
+        "image": { "fields": { "file": { "url": "./images/bbb27f41a783b43fa052eae7c7b4ed54.jpg" } } }
+      }
+    }
+  ]
+}
