@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Login</title>
+</head>
+<body id="signup">
+<!--Header-->
+<!--top nav-->
+<div class="top-nav">
+    <div class="container d-flex">
+        <p>Order Online or Call us: (000) 2222 5555</p>
+        <ul class="d-flex">
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+        </ul>
+    </div>
+</div>
+<div class="navigation">
+    <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+        <ul class="nav-list d-flex">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="product.html" class="nav-link" style="color: #ffa101;">Products</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <!--Icons-->
+        <div class="icons d-flex">
+            <div class="icon-search">
+                <form action="" class="search" id="search-bar">
+                    <input type="search" placeholder="Type something..." class="search__input" id="filterinput">
+                    <div class="search__button" id="search-button">
+                        <i class='bx bx-search search__icon'></i>
+                        <i class='bx bx-x search__close'></i>
+                    </div>
+                </form>
+            </div>
+            <a href="login.html" class="icon-login"><i class='bx bx-user'></i></a>
+            <div class="cart-btn">
+                <div class="icon">
+                    <i class='bx bx-cart'></i>
+                    <div class="cart-items d-flex"></div>
+                </div>
+            </div>
+        </div>
+        <!--Hamburger-->
+        <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+        </div>
+    </div>
+</div>
+<div class="container-login login-link">
+
+    <img src="images/wepik-export-20230423214512.png">
+    
+    <div class="login-form">
+        <form action="#">
+            <h2>Sign Up</h2>
+  
+            <div class="input-box">
+              <span class="icon-login-form">
+                  <i class='bx bxs-user'></i>
+              </span>
+                  <input type="text" data-rule="name" required/>
+                  <label>Username</label>
+            </div>
+        
+            <div class="input-box">
+                <span class="icon-login-form">
+                    <i class='bx bxs-envelope'></i>
+                </span>
+                    <input type="text" data-rule="email" required/>
+                    <label for="email">Email</label>
+            </div>
+  
+            <div class="input-box">
+                <span class="icon-login-form">
+                    <i class='bx bxs-lock-alt'></i>
+                </span>
+                    <input type="password" data-rule="password" required/>
+                    <label for="psw">Password</label>
+            </div>
+
+            <span class="error-name"></span>
+
+            <span class="error-email"></span>
+
+            <span class="error-password"></span>
+
+            <label>
+                <input
+                        type="checkbox"
+                        checked="checked"
+                        name="remember"
+                        style="margin-bottom: 15px"
+                />
+                Remember me
+            </label>
+  
+            <div class="buttons">
+                <button type="submit" class="signupbtn">Sign up</button>
+            </div>
+  
+            <p>Already have an account?
+              <a href="login.html" class="log-link">Login in</a>
+          </p>
+        </form>
+    </div>
+    <div class="popup-center">
+        <div class="popup-icon">
+            <i class='bx bx-check'></i>
+        </div>
+        <div class="popup-title">
+            <p>Success!!!</p>
+        </div>
+        <div class="popup-description">
+            <p>Уour form has been completed successfully</p> 
+        </div>
+        <div class="dismiss-btn">
+            <button id="dismiss-popup">Dismiss</button>
+        </div>
+
+    </div>
+</div>
+
+<!--Card-overlay-->
+<div class="cart-overlay">
+    <div class="cart-overlay-item">
+        <span class="close-cart">
+            <i class='bx bxs-x-circle'></i>
+        </span>
+        <div class="cart-content">
+        </div>
+        <div class="cart-footer">
+            <h3>your total : € <span class="cart-total">0</span></h3>
+            <a href="login.html" class="checkout">Checkout</a>
+            <button class="clear-cart banner-btn">clear cart</button>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="footer">
+    <div class="row">
+        <div class="col d-flex">
+            <div class="contact-footer">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <div class="contact-info">
+                    <h5>Contact</h5>
+                    <span>Address: Statenlaan 174 Rijen Noord-Brabant 5121 HD</span>
+                    <span>Phone: (000) 2222 5555</span>
+                    <span>Hours: Monday to Tuesday: 9am to 16pm</span>
+                </div>
+            </div>
+            <h5>Follow us</h5>
+            <div class="icons-footer">
+                <a href="https://www.facebook.com/">
+                    <span><i class='bx bxl-facebook-square'></i></span>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <span><i class='bx bxl-instagram-alt' ></i></span>
+                </a> 
+                <a href="https://www.youtube.com/">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a> 
+                <a href="https://twitter.com/">
+                    <span><i class='bx bxl-twitter' ></i></span>
+                </a> 
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="links-footer">
+                <h4>About</h4>
+                <div class="contact-links-footer">
+                    <a href="about.html">About us</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="contact.html">Term & Conditions</a>
+                    <a href="contact.html">Shipping Guide</a>
+                    <a href="contact.html">Delivery information</a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="account-footer">
+                <h4>My account</h4>
+                <div class="account-links-footer">
+                    <a href="login.html">Sign in</a>
+                    <a href="login.html">View cart</a>
+                    <a href="login.html">My Wishlist</a>
+                    <a href="contact.html">Help</a>
+                    <a href="contact.html">Track my order</a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="apps-footer">
+                <h4>Install our App</h4>
+                <span>From App Store or Google Play</span>
+                <div class="apps">
+                    <div class="app-store">
+                        <a href="https://www.apple.com/app-store/">
+                            <img src="images/app.jpg" alt="apple store">
+                        </a>
+                    </div>
+                    <div class="google-play">
+                        <a href="https://play.google.com/store/games?pli=1">
+                            <img src="images/play.jpg" alt="google play">
+                        </a>
+                    </div>
+                </div>
+                <img src="images/pay.png" alt="">
+            </div>
+    </div>
+  </footer>
+<script type="text/javascript" src="./script/app.js" defer></script>
+</body>
+</html>

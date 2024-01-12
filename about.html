@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+  <title>Contact</title>
+</head>
+<body id="about-us">
+<!--Header-->
+<!--top nav-->
+<div class="top-nav">
+  <div class="container d-flex">
+      <p>Order Online or Call us: (000) 2222 5555</p>
+      <ul class="d-flex">
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+  </div>
+</div>
+<div class="navigation">
+  <div class="nav-center container d-flex">
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+      <ul class="nav-list d-flex">
+          <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+              <a href="product.html" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+              <a href="about.html" class="nav-link" style="color: #ffa101;">About</a>
+          </li>
+          <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+      </ul>
+      <!--Icons-->
+      <div class="icons d-flex">
+        <div class="icon-search">
+            <form class="search" id="search-bar">
+                <input type="search" placeholder="Type something..." class="search__input" id="filterinput">
+                <div class="search__button" id="search-button">
+                    <i class='bx bx-search search__icon'></i>
+                    <i class='bx bx-x search__close'></i>
+                </div>
+            </form>
+        </div>
+          <a href="login.html" class="icon-login"><i class='bx bx-user'></i></a>
+          <div class="cart-btn">
+              <div class="icon">
+                  <i class='bx bx-cart'></i>
+                  <div class="cart-items d-flex"></div>
+              </div>
+          </div>
+      </div>
+      <!--Hamburger-->
+      <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+      </div>
+  </div>
+</div>
+
+<!--About us-->
+<main class="about-info  reveal">
+    <section id="about">
+        <div class="text-about">
+          <p class="top-text">Who we are?</p>
+          <h3>We are fashion enthusiasts creating sustainable and stylish clothing.</h3>
+          <p>Welcome to our online store, where you can find everything you need to enhance your life and fulfill your desires. We are committed to providing our customers with an exceptional shopping experience, offering a wide range of high-quality products at competitive prices.</p>
+        </div>
+    </section>
+    <section>
+        <div class="photos-aboutus">
+            <div class="main-photo-aboutus">
+                <img src="images/pexels-photo-7289739.jpeg" alt="employees">
+            </div>
+            <div class="others-photo-aboutus">
+                <div class="top-photo-aboutus">
+                    <img src="images/pexels-photo-5585858.jpeg" alt="employees">
+                    <img src="images/pexels-photo-8386668.jpeg" alt="employees">
+                </div>
+                <div class="bottom-photo-aboutus">
+                    <img src="images/pexels-photo-5418899.jpeg" alt="employees">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="logos">
+        <div class="logos-slide">
+            <img src="images/bershka-1.svg" alt="bershka"/>
+            <img src="images/zara.svg" alt="zara">
+            <img src="images/pull-bear-2.svg" alt="pull-bear"/>
+            <img src="images/massimo-dutti-1.svg" alt="massimo-dutti"/>
+            <img src="images/mango-4.svg" alt="mango"/>
+            <img src="images/tommy-hilfig-vectorlogo.svg" alt="tommy-hilfig"/>
+        </div>
+    </section>
+
+    <!-- tilt-animation -->
+    <section class="cards-tilts">
+        <div class="cards-tilt" data-tilt>
+            <div class="card-image">
+                <img src="images/pexels-alexander-suhorucov-6457579.jpg"/>
+            </div>
+            <div class="card-text">
+                <h3>2017</h3>
+                <p>We were founded</p>
+            </div>
+        </div>
+        <div class="cards-tilt" data-tilt>
+            <div class="card-image">
+                <img src="images/two-beautiful-women-shopping-town.jpg"/>
+            </div>
+            <div class="card-text">
+                <h3>1000+</h3>
+                <p>Happy customers</p>
+            </div>
+        </div>
+        <div class="cards-tilt">
+            <div class="card-image">
+                <img src="images/pexels-photo-4940756.jpeg"/>
+            </div>
+            <div class="card-text" data-tilt>
+                <h3>40+</h3>
+                <p>Offline stores</p>
+            </div>
+        </div>
+    </section>
+    <!-- section contact -->
+    <section class="section contact">
+        <div class="row">
+            <div class="col">
+                <h2>EXCELLENT SUPPORT</h2>
+                <p>We love our customers and they can reach us any time
+                    of day we will be at your service 24/7</p>
+                <a href="contact.html" class="btn btn-1">Contact</a>
+            </div>
+            <div class="col">
+                <form action="">
+                    <div>
+                        <input type="email" placeholder="Email Address">
+                        <a href="">Send</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </section>
+</main>
+<!--Card-overlay-->
+<div class="cart-overlay">
+  <div class="cart-overlay-item">
+      <span class="close-cart">
+          <i class='bx bxs-x-circle'></i>
+      </span>
+      <div class="cart-content">
+          <!--Cart item-->
+          <!--End of cart item-->
+      </div>
+      <div class="cart-footer">
+          <h3>your total : € <span class="cart-total">0</span></h3>
+          <a href="login.html" class="checkout">Checkout</a>
+          <button class="clear-cart banner-btn">clear cart</button>
+      </div>
+  </div>
+</div>
+
+<!-- Footer-->
+<footer class="footer scroll">
+    <div class="row">
+        <div class="col d-flex">
+            <div class="contact-footer">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <div class="contact-info">
+                    <h5>Contact</h5>
+                    <span>Address: Statenlaan 174 Rijen Noord-Brabant 5121 HD</span>
+                    <span>Phone: (000) 2222 5555</span>
+                    <span>Hours: Monday to Tuesday: 9am to 16pm</span>
+                </div>
+            </div>
+            <h5>Follow us</h5>
+            <div class="icons-footer">
+                <a href="https://www.facebook.com/">
+                    <span><i class='bx bxl-facebook-square'></i></span>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <span><i class='bx bxl-instagram-alt' ></i></span>
+                </a> 
+                <a href="https://www.youtube.com/">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a> 
+                <a href="https://twitter.com/">
+                    <span><i class='bx bxl-twitter' ></i></span>
+                </a> 
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="links-footer">
+                <h4>About</h4>
+                <div class="contact-links-footer">
+                    <a href="about.html">About us</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="contact.html">Term & Conditions</a>
+                    <a href="contact.html">Shipping Guide</a>
+                    <a href="contact.html">Delivery information</a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="account-footer">
+                <h4>My account</h4>
+                <div class="account-links-footer">
+                    <a href="login.html">Sign in</a>
+                    <a href="login.html">View cart</a>
+                    <a href="login.html">My Wishlist</a>
+                    <a href="contact.html">Help</a>
+                    <a href="contact.html">Track my order</a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="apps-footer">
+                <h4>Install our App</h4>
+                <span>From App Store or Google Play</span>
+                <div class="apps">
+                    <div class="app-store">
+                        <a href="https://www.apple.com/app-store/">
+                            <img src="images/app.jpg" alt="apple store">
+                        </a>
+                    </div>
+                    <div class="google-play">
+                        <a href="https://play.google.com/store/games?pli=1">
+                            <img src="images/play.jpg" alt="google play">
+                        </a>
+                    </div>
+                </div>
+                <img src="images/pay.png" alt="">
+            </div>
+    </div>
+</footer>
+
+</script>
+<script type="text/javascript" src="../script/app.js" defer></script>
+
+</body>
+
+</html>

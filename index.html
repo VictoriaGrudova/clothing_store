@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+        <title>Ecommerce</title>
+    </head>
+    <body id="home-page">
+    <!--Header-->
+    <header class="header" id="header">
+        <div class="container-header">
+
+            <div class="background">
+                <div class="hero">
+                    <img src="images/feature-img.png" alt="">
+                </div>
+            </div>
+    
+            <div class="nav">
+                <div class="hamburger">
+                    <i class="bx bx-menu-alt-left"></i>
+                </div>
+                <div class="menu">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="product.html" class="nav-link category-btn" data-btn="products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cart-btn">
+                    <div class="icon">
+                        <i class='bx bx-cart'></i>
+                        <div class="cart-items d-flex">0</div>
+                </div>
+            </div>
+                
+            </div>
+    
+            
+    
+            <div class="blocks">
+                <div class="block-1">20</div>
+                <div class="block-1">23</div>
+            </div>
+    
+            <div class="title-header">
+                <div class="title-container">
+                    <div class="title-item"><span>S</span></div>
+                    <div class="title-item"><span>U</span></div>
+                    <div class="title-item"><span>M</span></div>
+                    <div class="title-item"><span>M</span></div>
+                    <div class="title-item"><span>E</span></div>
+                    <div class="title-item"><span>R</span></div>
+                </div>
+            </div>
+    
+            <div class="media">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>  
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>   
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>  
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>  
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <p>A fashion insight into leading summer styles, travel destinations<br> to may never of thought of , a beginners guide to S&M and more
+                </p>
+                <a href="product.html" class="button-header">Shop Now</a>
+            </div>
+        </div>
+    </header>
+    <!-- Categories Section -->
+    <section class="section category scroll">
+        <div class="cat-center">
+            <div class="cat">
+                <a href="women_sWear.html" class="category-btn" data-btn="women's wear">
+                    <img src="images/cat3.jpg" alt="WOMEN">
+                    <p><span>WOMEN'S WEAR</span></p>
+                </a>
+
+                <div>
+
+                </div>
+            </div>
+            <div class="cat">
+                <a href="accessories.html" class="category-btn" data-btn="accessories">
+                    <img src="images/cat2.jpg" alt="ACCESSORIES">
+                    <p><span>ACCESSORIES</span></p>
+                </a>
+            </div>
+            <div class="cat">
+                <a href="men_sWear.html" class="category-btn" data-btn="men's wear">
+                    <img src="images/cat1.jpg" alt="MEN">
+                    <p><span>MEN'S WEAR</span></p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--Arrivals-->
+    <section class="section scroll">
+        <div class="title">
+            <h1>NEW ARRIVALS</h1>
+            <p>All the latest picked from designer of our store</p>
+        </div>
+        <div class="product-center new-arrival">
+        </div>
+    </section>
+    <!-- Promo -->
+    <section class="section banner scroll">
+            <div class="left">
+                <h2>New Collection 2023</h2>
+                <p>New Arrival <span class="color">Sale 20% - 50% OFF</span> Limited Time Offer</p>
+                <div class="countdown" id="countdown">
+                    <div>
+                        <span id="days"> 00 </span>
+                        <p>days</p>
+                    </div>
+                    <div>
+                        <span id="hours"> 00 </span>
+                        <p>hours</p>
+                    </div>
+                    <div>
+                        <span id="minutes"> 00 </span>
+                        <p>minutes</p>
+                    </div>
+                    <div>
+                        <span id="seconds"> 00 </span>
+                        <p>seconds</p>
+                    </div>
+                </div>
+                <a href="sale.html" class="btn btn-1 category-btn" data-btn="sale">Discover now</a>
+            </div>
+            <div class="right">
+                <img src="images/banner.png" alt="banner">
+            </div>
+    </section>
+    <!-- Featured -->
+    <section class="section scroll">
+        <div class="title">
+            <h2>Featured</h2>
+            <p>All the latest picked from designer of our store</p>
+        </div>
+        <div class="product-center featured">
+    </section>
+    <!-- Contact -->
+    <section class="section contact scroll">
+        <div class="row">
+            <div class="col">
+                <h2>EXCELLENT SUPPORT</h2>
+                <p>We love our customers and they can reach us any time
+                    of day we will be at your service 24/7</p>
+                <a href="contact.html" class="btn btn-1">Contact</a>
+            </div>
+            <div class="col">
+                <form action="">
+                    <div>
+                        <input type="email" placeholder="Email Address">
+                        <a href="">Send</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Card-overlay-->
+    <div class="cart-overlay">
+        <div class="cart-overlay-item">
+            <span class="close-cart">
+                <i class='bx bxs-x-circle'></i>
+            </span>
+            <!--<h2>your cart</h2>-->
+            <div class="cart-content">
+                <!--Cart item-->
+                <!--End of cart item-->
+            </div>
+            <div class="cart-footer">
+                <h3>your total : € <span class="cart-total">0</span></h3>
+                <a href="login.html" class="checkout">Checkout</a>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer scroll">
+        <div class="row">
+            <div class="col d-flex">
+                <div class="contact-footer">
+                    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <div class="contact-info">
+                        <h5>Contact</h5>
+                        <span>Address: Statenlaan 174 Rijen Noord-Brabant 5121 HD</span>
+                        <span>Phone: (000) 2222 5555</span>
+                        <span>Hours: Monday to Tuesday: 9am to 16pm</span>
+                    </div>
+                </div>
+                <h5>Follow us</h5>
+                <div class="icons-footer">
+                    <a href="https://www.facebook.com/">
+                        <span><i class='bx bxl-facebook-square'></i></span>
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <span><i class='bx bxl-instagram-alt' ></i></span>
+                    </a> 
+                    <a href="https://www.youtube.com/">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a> 
+                    <a href="https://twitter.com/">
+                        <span><i class='bx bxl-twitter' ></i></span>
+                    </a> 
+                </div>
+            </div>
+            <div class="col d-flex">
+                <div class="links-footer">
+                    <h4>About</h4>
+                    <div class="contact-links-footer">
+                        <a href="about.html">About us</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.html">Term & Conditions</a>
+                        <a href="contact.html">Shipping Guide</a>
+                        <a href="contact.html">Delivery information</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex">
+                <div class="account-footer">
+                    <h4>My account</h4>
+                    <div class="account-links-footer">
+                        <a href="login.html">Sign in</a>
+                        <a href="login.html">View cart</a>
+                        <a href="login.html">My Wishlist</a>
+                        <a href="contact.html">Help</a>
+                        <a href="contact.html">Track my order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex">
+                <div class="apps-footer">
+                    <h4>Install our App</h4>
+                    <span>From App Store or Google Play</span>
+                    <div class="apps">
+                        <div class="app-store">
+                            <a href="https://www.apple.com/app-store/">
+                                <img src="images/app.jpg" alt="apple store">
+                            </a>
+                        </div>
+                        <div class="google-play">
+                            <a href="https://play.google.com/store/games?pli=1">
+                                <img src="images/play.jpg" alt="google play">
+                            </a>
+                        </div>
+                    </div>
+                    <img src="images/pay.png" alt="">
+                </div>
+        </div>
+    </footer>
+    <!-- PopUp -->
+    <div class="popup hide-popup">
+        <div class="popup-content">
+            <div class="popup-close">
+                <i class='bx bx-x'></i>
+            </div>
+            <div class="popup-left">
+                <div class="popup-img-container">
+                    <img class="popup-img" src="./images/popup.jpg" alt="popup">
+                </div>
+            </div>
+            <div class="popup-right">
+                <div class="right-content">
+                    <h2>Get Discount <span>50%</span> Off</h2>
+                    <p>Sign up to our newsletter and save 30% for you next purchase. No spam, we promise!</p>
+                    <form action="#">
+                        <input type="email" placeholder="Enter your email..." class="popup-form">
+                        <a href="login.html">Subscribe</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./script/app.js" defer></script>
+    <script type="text/javascript" src="./script/slider.js" defer></script>
+    </body>
+
+</html>
